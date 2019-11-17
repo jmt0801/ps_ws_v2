@@ -1,0 +1,26 @@
+{
+  "name": "personal_website_v2",
+  "version": "1.0.0",
+  "description": "Jun Kim Portfolio Website v2",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "build": "cd public && npm run build",
+    "webpack": "cd public && npm run webpack",
+    "dev": "cd public && npm run dev"
+  },
+  "keywords": [
+    "Portfolio",
+    "React"
+  ],
+  "author": "Jun Kim",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}
